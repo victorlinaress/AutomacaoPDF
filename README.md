@@ -1,32 +1,24 @@
-Automação de Relatórios em PDF com Python
+Este é um pequeno projeto que desenvolvi para praticar automação de tarefas utilizando Python.
 
-Este projeto foi desenvolvido como prática de automação de processos utilizando Python.
+A ideia surgiu ao pensar em algo comum dentro de empresas: gerar relatórios repetitivos para várias pessoas. Em vez de fazer isso manualmente, pensei em automatizar todo o processo utilizando programação.
 
-A ideia é simples: ler uma base de dados em CSV contendo informações de funcionários e gerar automaticamente relatórios individuais em PDF para cada registro da base.
+Nesse projeto, o script lê uma base de dados em CSV contendo informações de funcionários e gera automaticamente um relatório em PDF para cada pessoa.
 
-Esse tipo de automação pode ser muito útil para empresas que precisam gerar relatórios repetitivos, economizando tempo e reduzindo tarefas manuais.
+Assim, em poucos segundos, vários relatórios são criados automaticamente.
 
-Tecnologias utilizadas
+-O que o projeto faz
 
-Python
+O programa realiza algumas etapas simples, mas muito úteis:
 
-Pandas (leitura e manipulação de dados)
+Lê uma base de dados contendo funcionários e horas extras
 
-ReportLab (geração de PDF)
+Processa cada registro da base
 
-Como funciona
+Gera automaticamente um relatório individual em PDF
 
-O script realiza os seguintes passos:
+Organiza todos os relatórios em uma pasta
 
-Lê uma base de dados em formato CSV
-
-Processa as informações de cada funcionário
-
-Cria automaticamente um relatório em PDF para cada pessoa
-
-Organiza os arquivos gerados em uma pasta chamada relatorios
-
-Cada relatório contém:
+Cada relatório contém informações como:
 
 Nome do funcionário
 
@@ -36,31 +28,14 @@ Quantidade de horas extras
 
 Mês de referência
 
+Tudo isso é gerado automaticamente a partir dos dados da planilha.
 
-Como executar o projeto
+-Tecnologias utilizadas
 
-Clone o repositório
+Para desenvolver esse projeto utilizei:
 
-git clone https://github.com/seuusuario/automacaopdf.git
+Python
 
-Instale as dependências
+Pandas para leitura e manipulação dos dados
 
-pip install pandas reportlab
-
-Execute o script
-
-python main.py
-
-Após executar, os relatórios serão gerados automaticamente na pasta relatorios.
-
-Objetivo do projeto
-
-Este projeto foi desenvolvido com foco em:
-
-Praticar automação com Python
-
-Trabalhar com manipulação de dados
-
-Gerar documentos automaticamente
-
-Resolver problemas do mundo real com programação
+ReportLab para geração dos arquivos PDF
