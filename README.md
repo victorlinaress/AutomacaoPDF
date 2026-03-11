@@ -36,15 +36,7 @@ Quantidade de horas extras
 
 Mês de referência
 
-Estrutura do projeto
-automacaopdf
-│
-├── horas_extras.csv
-├── main.py
-├── relatorios/
-│   ├── relatorio_horas_extras_Ana_Souza.pdf
-│   ├── relatorio_horas_extras_Carlos_Lima.pdf
-│   └── ...
+
 Como executar o projeto
 
 Clone o repositório
